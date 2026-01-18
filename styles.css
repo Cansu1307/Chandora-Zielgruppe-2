@@ -248,7 +248,7 @@ body {
     border: none;
     padding: 4px;
     border-radius: 999px;
-    background-color: rgba(255, 255, 255, 0.95);
+    background-color: #F8F8F8;
     cursor: pointer;
     display: inline-flex;
     align-items: center;
@@ -507,16 +507,16 @@ body {
     }
 }
 
-/* ===== NOSTALGIA KOLLEKTION ===== */
+/* =====.dorea KOLLEKTION ===== */
 
-.nostalgia-section {
+.dorea-section {
     margin-top: 160px;
     /* Desktop Abstand zu Why */
     background: #fff;
 }
 
 /* Desktop Layout: links Content, rechts Produktgrid */
-.nostalgia-inner {
+.dorea-inner {
     display: grid;
     grid-template-columns: 460px 1fr;
     /* Bildblock ungefähr 460px */
@@ -530,18 +530,18 @@ body {
 }
 
 /* LINKS */
-.nostalgia-title {
+.dorea-title {
     font-size: 25px;
     font-weight: 400;
     margin: 0 0 20px;
 }
 
-.nostalgia-image {
+.dorea-image {
     width: 460px;
     /* Desktop Bildbreite */
 }
 
-.nostalgia-image img {
+.dorea-image img {
     width: 100%;
     height: auto;
     display: block;
@@ -549,14 +549,14 @@ body {
     object-fit: cover;
 }
 
-.nostalgia-text {
+.dorea-text {
     font-size: 17px;
     line-height: 1.6;
     margin: 20px 0 0;
 }
 
 /* RECHTS: Produktgrid */
-.nostalgia-product-grid {
+.dorea-product-grid {
     display: grid;
     grid-template-columns: repeat(3, 230px);
     /* 3 nebeneinander */
@@ -568,12 +568,12 @@ body {
 }
 
 /* Produktbild-Karte */
-.nostalgia-product-card {
+.dorea-product-card {
     background: transparent;
 }
 
 /* 230x290 Frame */
-.nostalgia-product-image-wrapper {
+.dorea-product-image-wrapper {
     position: relative;
     width: 230px;
     aspect-ratio: 230 / 290;
@@ -585,7 +585,7 @@ body {
     justify-content: center;
 }
 
-.nostalgia-product-image {
+.dorea-product-image {
     max-width: 70%;
     max-height: 70%;
     width: auto;
@@ -595,7 +595,7 @@ body {
 }
 
 /* Mehr entdecken Link (Desktop) */
-.nostalgia-more-link {
+.dorea-more-link {
     display: inline-block;
     margin-top: 40px;
     font-size: 15px;
@@ -604,7 +604,7 @@ body {
     transition: color 0.2s ease;
 }
 
-.nostalgia-more-link:hover {
+.dorea-more-link:hover {
     color: #ff93a0;
 }
 
@@ -619,12 +619,12 @@ body {
 
 /* ===== MOBILE / TABLET ===== */
 @media (max-width: 768px) {
-    .nostalgia-section {
+    .dorea-section {
         margin-top: 150px;
         /* Mobile Abstand zu Why */
     }
 
-    .nostalgia-inner {
+    .dorea-inner {
         grid-template-columns: 1fr;
         column-gap: 0;
         padding-left: 0;
@@ -632,20 +632,20 @@ body {
     }
 
     /* Title + Abstände wie Vorlage */
-    .nostalgia-title {
+    .dorea-title {
         font-size: 25px;
         margin: 0;
         padding: 0 30px;
     }
 
     /* Abstand Title -> Bild = 35px */
-    .nostalgia-image {
+    .dorea-image {
         width: 100%;
         margin-top: 35px;
     }
 
     /* Bild: volle Viewport-Breite, 4:5 bleibt */
-    .nostalgia-image img {
+    .dorea-image img {
         width: 100vw;
         max-width: 100vw;
         aspect-ratio: 4 / 5;
@@ -655,28 +655,28 @@ body {
     }
 
     /* Text: Abstand 20px, links 30px */
-    .nostalgia-text {
+    .dorea-text {
         margin-top: 20px;
         padding: 0 30px;
         font-size: 17px;
     }
 
     /* Abstand Text -> Produkte = 70px */
-    .nostalgia-right {
+    .dorea-right {
         margin-top: 70px;
         padding: 0 28px;
         /* Seitenabstand 28px wie Vorlage */
     }
 
     /* Mobile Produkte: 2 Spalten, 10px / 45px */
-    .nostalgia-product-grid {
+    .dorea-product-grid {
         grid-template-columns: repeat(2, 1fr);
         column-gap: 10px;
         row-gap: 45px;
     }
 
     /* Wrapper wird responsive (volle Kartenbreite) */
-    .nostalgia-product-image-wrapper {
+    .dorea-product-image-wrapper {
         width: 100%;
         aspect-ratio: 230 / 290;
     }
@@ -691,7 +691,7 @@ body {
     }
 
     /* Button "Mehr Entdecken" verschwindet */
-    .nostalgia-more-link {
+    .dorea-more-link {
         display: none;
     }
 }
@@ -700,7 +700,7 @@ body {
 
 .how-section {
     margin-top: 150px;
-    /* Desktop: Abstand zur Nostalgia-Sektion */
+    /* Desktop: Abstand zur.dorea-Sektion */
     background-color: #ffffff;
 }
 
@@ -772,7 +772,7 @@ body {
 @media (max-width: 768px) {
     .how-section {
         margin-top: 130px;
-        /* Mobile: Abstand zur Nostalgia-Sektion */
+        /* Mobile: Abstand zur.dorea-Sektion */
     }
 
     .how-inner {
