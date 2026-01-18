@@ -173,7 +173,7 @@ body {
     .hero-image {
         height: 100%;
         object-fit: cover;
-        object-position: 20% 25%;
+        object-position: 5% 25%;
     }
 }
 
@@ -183,7 +183,7 @@ body {
     }
 
     .hero-image {
-        object-position: 20% 25%;
+        object-position: 10% 25%;
         /*
       Noch stärkerer Fokus auf Model & Schmuck
     */
